@@ -1,3 +1,50 @@
-p {
-  color: orange;
+body{
+  background-color: black;
+  padding-top: 100px;
+}
+
+section{
+  background-color: blanchedalmond;
+  height: 600px;
+  width: 600px;
+  margin: 0 auto;
+
+  padding: 50px;
+}
+
+section > div {
+  background-color: azure;
+
+  padding: 50px;
+}
+
+section > div > div {
+  background-color: lavender;
+  overflow: hidden;
+}
+
+section > div > div > div {
+  background-color: lavenderblush;
+  position: relative;
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    margin-top: 25%;
+}
+
+section > div > div > div > div {
+  background-color: plum;
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+
+div{
+  height: 100%;
+  width: 100%;
 }
